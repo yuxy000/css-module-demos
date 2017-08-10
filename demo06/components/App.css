@@ -1,7 +1,11 @@
 @value colors: "./colors.css";
-@value blue, red, green from colors;
+@value blue, red, green, black from colors;
+
+@value fontsizes: "./fontsize.css";
+@value fontSize14 from fontsizes;
 
 .title {
   color: red;
-  background-color: blue;
+  background-color: black;
+  font-size: fontSize14;
 }

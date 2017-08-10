@@ -2,7 +2,12 @@
   background-color: blue;
 }
 
+.className1 {
+  font-style: italic;
+}
+
 .title {
   composes: className;
+  composes: className1;
   color: red;
 }
