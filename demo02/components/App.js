@@ -3,8 +3,13 @@ import styles from './App.css';
 
 export default () => {
   return (
-    <h1 className="title">
-      Hello World
-    </h1>
+    <div>
+      <h1 className="title">
+        Hello World
+      </h1>
+      <h2 className="subtitle">
+        Hello h2
+      </h2>
+    </div>
   );
 };

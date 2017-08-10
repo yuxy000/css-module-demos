@@ -5,3 +5,7 @@
 :global(.title) {
   color: green;
 }
+
+:global(.subtitle) {
+  color: blue;
+}
